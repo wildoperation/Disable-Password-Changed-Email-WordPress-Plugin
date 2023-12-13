@@ -219,6 +219,6 @@
             "install-path": "../wildoperation/wp-plugin-review-bug"
         }
     ],
-    "dev": false,
+    "dev": true,
     "dev-package-names": []
 }

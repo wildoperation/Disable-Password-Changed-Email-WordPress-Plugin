@@ -12,5 +12,16 @@
 		"allow-plugins": {
 			"typisttech/imposter-plugin": true
 		}
+	},
+	"archive": {
+		"exclude": [
+			".git",
+			".gitignore",
+			"package.json",
+			"package-lock.json",
+			"composer.json",
+			"composer.lock",
+			"typisttech"
+		]
 	}
 }
