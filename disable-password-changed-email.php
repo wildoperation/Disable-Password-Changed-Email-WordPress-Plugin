@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     Disable Password Changed Email
- * Plugin URI:      https://wildoperation.com
+ * Plugin URI:      https://github.com/wildoperation/Disable-Password-Changed-Email-WordPress-Plugin
  * Description:     Disables the admin notification email that is sent when a user changes their password.
  * Version:         1.0.0
  * Author:          Wild Operation
