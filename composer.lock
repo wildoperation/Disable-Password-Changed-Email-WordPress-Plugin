@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a03212b0fee8382c6ba4bc9bf4e5712f",
+    "content-hash": "9341f5981637f1d9f371ff2f0115528f",
     "packages": [
         {
             "name": "typisttech/imposter",
@@ -182,19 +182,18 @@
         },
         {
             "name": "wildoperation/wp-plugin-review-bug",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wildoperation/wp-plugin-review-bug.git",
-                "reference": "0891597b0b9dbc86715c939eaea48789c2eba5cc"
+                "reference": "e6b06bfca2f6fd76332d28cf1df0acc5500f6091"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wildoperation/wp-plugin-review-bug/zipball/0891597b0b9dbc86715c939eaea48789c2eba5cc",
-                "reference": "0891597b0b9dbc86715c939eaea48789c2eba5cc",
+                "url": "https://api.github.com/repos/wildoperation/wp-plugin-review-bug/zipball/e6b06bfca2f6fd76332d28cf1df0acc5500f6091",
+                "reference": "e6b06bfca2f6fd76332d28cf1df0acc5500f6091",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -211,9 +210,9 @@
             ],
             "support": {
                 "issues": "https://github.com/wildoperation/wp-plugin-review-bug/issues",
-                "source": "https://github.com/wildoperation/wp-plugin-review-bug/tree/master"
+                "source": "https://github.com/wildoperation/wp-plugin-review-bug/tree/develop"
             },
-            "time": "2023-12-13T18:12:25+00:00"
+            "time": "2023-12-14T15:51:43+00:00"
         }
     ],
     "packages-dev": [],

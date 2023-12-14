@@ -182,21 +182,20 @@
         },
         {
             "name": "wildoperation/wp-plugin-review-bug",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "version": "dev-develop",
+            "version_normalized": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wildoperation/wp-plugin-review-bug.git",
-                "reference": "0891597b0b9dbc86715c939eaea48789c2eba5cc"
+                "reference": "e6b06bfca2f6fd76332d28cf1df0acc5500f6091"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wildoperation/wp-plugin-review-bug/zipball/0891597b0b9dbc86715c939eaea48789c2eba5cc",
-                "reference": "0891597b0b9dbc86715c939eaea48789c2eba5cc",
+                "url": "https://api.github.com/repos/wildoperation/wp-plugin-review-bug/zipball/e6b06bfca2f6fd76332d28cf1df0acc5500f6091",
+                "reference": "e6b06bfca2f6fd76332d28cf1df0acc5500f6091",
                 "shasum": ""
             },
-            "time": "2023-12-13T18:12:25+00:00",
-            "default-branch": true,
+            "time": "2023-12-14T15:51:43+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -214,7 +213,7 @@
             ],
             "support": {
                 "issues": "https://github.com/wildoperation/wp-plugin-review-bug/issues",
-                "source": "https://github.com/wildoperation/wp-plugin-review-bug/tree/master"
+                "source": "https://github.com/wildoperation/wp-plugin-review-bug/tree/develop"
             },
             "install-path": "../wildoperation/wp-plugin-review-bug"
         }
