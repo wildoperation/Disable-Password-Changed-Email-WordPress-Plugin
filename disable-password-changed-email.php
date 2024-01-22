@@ -17,15 +17,22 @@
  */
 
 /* Abort! */
-if ( ! defined( 'WPINC' ) ) {
-	die;
+if (! defined('WPINC')) {
+    die;
 }
 
-require plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
+require plugin_dir_path(__FILE__) . 'vendor/autoload.php';
 
-new \WODPCE\Vendor\WOWPRB\WPPluginReviewBug( __FILE__ );
+new \WODPCE\Vendor\WOWPRB\WPPluginReviewBug(__FILE__);
 
 /**
- * Disable password change email
+ * Disable Admin Notification of User Password Change
+ *
+ * @see pluggable.php
  */
-add_filter( 'send_password_change_email', '__return_false', 100 );
+if (! function_exists('wp_password_change_notification')) {
+    function wp_password_change_notification($user)
+    {
+        return;
+    }
+}

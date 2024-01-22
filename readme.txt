@@ -16,6 +16,12 @@ Stop password changed emails from being sent to site admin after a user resets t
 
 This plugin has no settings. Just enable the plugin, and the outgoing admin notifications will be disabled.
 
+== Frequently Asked Questions ==
+
+= Will users still receive an email after they change their password? =
+
+Yes. This plugin disables the "Passowrd Changed" email that is sent to admins. Users still receive a notification.
+
 == Changelog ==
 
 = 1.0.0 =
