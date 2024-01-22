@@ -1,4 +1,4 @@
-=== Disable Password Changed Email ===
+=== Disable Password Changed Admin Email ===
 Contributors: wildoperation, timstl
 Tags: email, reset, password, admin, user, notification
 Requires at least: 4.3.0
