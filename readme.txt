@@ -20,7 +20,7 @@ This plugin has no settings. Just enable the plugin, and the outgoing admin noti
 
 = Will users still receive an email after they change their password? =
 
-Yes. This plugin disables the "Passowrd Changed" email that is sent to admins. Users still receive a notification.
+Yes. This plugin disables the "Passowrd Changed" email that is sent to admins. Users still receive a notification if the password for their own account is changed.
 
 == Changelog ==
 
