@@ -4,7 +4,7 @@ on:
   workflow_dispatch
 
 env:
-  SLUG:disable-password-changed-email
+  SLUG: disable-password-changed-email
 
 jobs:
   build:
