@@ -3,6 +3,10 @@ on:
   push:
     tags:
     - "*"
+
+env:
+  SLUG: disable-password-changed-email
+
 jobs:
   tag:
     name: New tag
