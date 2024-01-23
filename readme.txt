@@ -3,9 +3,9 @@ Contributors: wildoperation, timstl
 Tags: email, reset, password, admin, user, notification
 Requires at least: 4.3.0
 Tested up to: 6.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 7.3
-License: GPLv3 or later
+License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Stop password changed emails from being sent to site admin after a user resets their password.
@@ -23,6 +23,9 @@ This plugin has no settings. Just enable the plugin, and the outgoing admin noti
 Yes. This plugin disables the "Password Changed" email that is sent to admins. Users still receive a notification if the password for their own account is changed.
 
 == Changelog ==
+
+= 1.0.1 =
+* Fix license mismatch
 
 = 1.0.0 =
 * Initial stable version
