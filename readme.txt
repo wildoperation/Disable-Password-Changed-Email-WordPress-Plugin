@@ -2,7 +2,7 @@
 Contributors: wildoperation, timstl
 Tags: email, reset, password, admin, notification
 Requires at least: 4.3.0
-Tested up to: 6.5
+Tested up to: 6.6
 Stable tag: 1.0.2
 Requires PHP: 7.3
 License: GPLv3
