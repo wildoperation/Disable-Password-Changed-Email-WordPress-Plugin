@@ -39,7 +39,8 @@ add_action(
 				'nobug_link_text'  => __( 'Don\'t ask again', 'disable-password-changed-email' ),
 			)
 		);
-	}
+	},
+	1
 );
 
 /**
