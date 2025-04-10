@@ -3,7 +3,7 @@
  * Plugin Name:     Disable Password Changed Admin Email
  * Plugin URI:      https://github.com/wildoperation/Disable-Password-Changed-Email-WordPress-Plugin
  * Description:     Disables the admin notification email that is sent when a user changes their password.
- * Version:         1.0.3
+ * Version:         1.0.4
  * Author:          Wild Operation
  * Author URI:      https://wildoperation.com
  * License:         GPLv3
@@ -13,7 +13,7 @@
  * @package WordPress
  * @subpackage Disable Password Changed Admin Email
  * @since 1.0.0
- * @version 1.0.3
+ * @version 1.0.4
  */
 
 /* Abort! */
@@ -23,15 +23,23 @@ if ( ! defined( 'WPINC' ) ) {
 
 require plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
-new \WODPCE\Vendor\WOWPRB\WPPluginReviewBug(
-	__FILE__,
-	'disable-password-changed-email',
-	array(
-		'intro'            => __( 'You\'ve been using Disable Password Changed Admin Email for a while now. We\'d love your feedback!', 'disable-password-changed-email' ),
-		'rate_link_text'   => __( 'Rate the plugin', 'disable-password-changed-email' ),
-		'remind_link_text' => __( 'Remind me later', 'disable-password-changed-email' ),
-		'nobug_link_text'  => __( 'Don\'t ask again', 'disable-password-changed-email' ),
-	)
+/**
+ * Review request framework
+ */
+add_action(
+	'admin_init',
+	function () {
+		new \WODPCE\Vendor\WOWPRB\WPPluginReviewBug(
+			__FILE__,
+			'disable-password-changed-email',
+			array(
+				'intro'            => __( 'You\'ve been using Disable Password Changed Admin Email for a while now. We\'d love your feedback!', 'disable-password-changed-email' ),
+				'rate_link_text'   => __( 'Rate the plugin', 'disable-password-changed-email' ),
+				'remind_link_text' => __( 'Remind me later', 'disable-password-changed-email' ),
+				'nobug_link_text'  => __( 'Don\'t ask again', 'disable-password-changed-email' ),
+			)
+		);
+	}
 );
 
 /**

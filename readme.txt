@@ -2,8 +2,8 @@
 Contributors: wildoperation, timstl
 Tags: email, reset, password, admin, notification
 Requires at least: 4.3.0
-Tested up to: 6.7
-Stable tag: 1.0.3
+Tested up to: 6.8
+Stable tag: 1.0.4
 Requires PHP: 7.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -23,6 +23,9 @@ This plugin has no settings. Just enable the plugin, and the outgoing admin noti
 Yes. This plugin disables the "Password Changed" email that is sent to admins. Users still receive a notification if the password for their own account is changed.
 
 == Changelog ==
+= 1.0.4 =
+* WordPress 6.8 support
+
 = 1.0.3 =
 * WordPress 6.7 support
 
